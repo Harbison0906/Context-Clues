@@ -7,7 +7,7 @@ var createHeading = function () {
   $('body').append(heading);
   accusation++;
 
-  if (accusation >100) {
+  if (accusation > 100) {
     console.log("Reached 100");
     return;
   } else {
@@ -17,5 +17,4 @@ var createHeading = function () {
 
 $(document).ready(function () {
   createHeading();
-
 })
