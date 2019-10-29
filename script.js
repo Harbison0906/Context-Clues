@@ -12,7 +12,7 @@ var accusation = 1;
 
 var createHeading = function () {
   var heading = $('<h3></h3>').text("Accusation " + accusation);
-  $('body').append(heading);
+  $('.col-md-3').append(heading);
   accusation++;
 
   if (accusation > 100) {
@@ -26,3 +26,5 @@ var createHeading = function () {
 $(document).ready(function () {
   createHeading();
 })
+
+
