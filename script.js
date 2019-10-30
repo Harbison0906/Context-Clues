@@ -1,14 +1,14 @@
-var sentence = [
-  friends = ['Jake', 'Justin', 'Reggie', 'Dave', 'Ryan'],
 
-  locations = ['kitchen', 'bedroom', 'parlor', 'bathroom', 'basement',
-  'backyard', 'garage', 'living room', 'closet', 'driveway'],
+var friends = ['Jake', 'Justin', 'Reggie', 'Dave', 'Ryan'];
 
-  weapons = ['knife', 'baseball bat', 'cheese grater', 'spear', 'vase',
+var locations = ['kitchen', 'bedroom', 'parlor', 'bathroom', 'basement',
+  'backyard', 'garage', 'living room', 'closet', 'driveway'];
+
+var weapons = ['knife', 'baseball bat', 'cheese grater', 'spear', 'vase',
   'sledge hammer', 'chainsaw', 'rope', 'clothes iron', 'ice cream scoop',
   'broad sword', 'cross bow', 'ice pick', 'axe', '2x4', 'rocket launcher',
   'plasma sword', 'slingshot', 'katana', 'throwing star']
-];
+
 
 
 
@@ -28,15 +28,7 @@ var createHeading = function () {
   }
 }
 
-$(document).ready(function () {
   createHeading();
-})
 
-$('.col-3').click(function () {
-  // var accuse = [friends, locations, weapons];
-  var i;
-  for (i = 0; i < friends.length; i++) {
-    console.log(sentence[i]);
-  }
-})
+
 
