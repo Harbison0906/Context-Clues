@@ -1,10 +1,10 @@
 body {
-  background-color: #FC8E3A;
+  background-color: #3D595B;
 }
 
 h1 {
   font-family: 'Permanent Marker', cursive;
-  color: #1B2F33;
+  color: #D95D39;
   font-size: 70px;
   text-align: center;
   letter-spacing: 2.5px;
@@ -13,9 +13,14 @@ h1 {
 }
 
 h3 {
-  color: #FFFFFF;
+  color: #FC8E3A;
+  justify-content: center;
   display: flex;
   font-family: 'Lato', sans-serif;
   text-shadow: 0px 2px 6px #1B2F33;
   margin-left: 20px;
+}
+
+#accuser {
+ /* justify-content: center; */
 }
